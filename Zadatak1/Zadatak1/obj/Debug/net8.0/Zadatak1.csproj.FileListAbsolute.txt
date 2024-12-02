@@ -1,0 +1,14 @@
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\bin\Debug\net8.0\Zadatak1.exe
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\bin\Debug\net8.0\Zadatak1.deps.json
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\bin\Debug\net8.0\Zadatak1.runtimeconfig.json
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\bin\Debug\net8.0\Zadatak1.dll
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\bin\Debug\net8.0\Zadatak1.pdb
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.AssemblyInfoInputs.cache
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.AssemblyInfo.cs
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.csproj.CoreCompileInputs.cache
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.dll
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\refint\Zadatak1.dll
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.pdb
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\Zadatak1.genruntimeconfig.cache
+C:\Users\steva\Desktop\IspitK1\Zadatak1\Zadatak1\obj\Debug\net8.0\ref\Zadatak1.dll

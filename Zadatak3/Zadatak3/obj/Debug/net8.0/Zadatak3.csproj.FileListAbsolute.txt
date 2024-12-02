@@ -1,0 +1,14 @@
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\bin\Debug\net8.0\Zadatak3.exe
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\bin\Debug\net8.0\Zadatak3.deps.json
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\bin\Debug\net8.0\Zadatak3.runtimeconfig.json
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\bin\Debug\net8.0\Zadatak3.dll
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\bin\Debug\net8.0\Zadatak3.pdb
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.AssemblyInfoInputs.cache
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.AssemblyInfo.cs
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.csproj.CoreCompileInputs.cache
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.dll
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\refint\Zadatak3.dll
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.pdb
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\Zadatak3.genruntimeconfig.cache
+C:\Users\steva\source\repos\Zadatak3\Zadatak3\obj\Debug\net8.0\ref\Zadatak3.dll
