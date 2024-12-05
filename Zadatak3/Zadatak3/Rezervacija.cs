@@ -29,8 +29,6 @@ namespace Zadatak3
         public double IzracunajUkupnuCenu()
         {
             return Smestaj.CenaPoNociGetSet * TrajanjeNoci;
-                // Console.WriteLine("Cena za " + TrajanjeNoci + " noci iznosi: " + Smestaj.CenaPoNociGetSet*TrajanjeNoci + " dinara");
-
         }
 
     }
