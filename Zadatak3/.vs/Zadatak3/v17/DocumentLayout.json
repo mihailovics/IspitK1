@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\steva\\desktop\\ispitk1\\zadatak3\\zadatak3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\user\\desktop\\ispitk1\\zadatak3\\zadatak3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\steva\\desktop\\ispitk1\\zadatak3\\zadatak3\\smestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\user\\desktop\\ispitk1\\zadatak3\\zadatak3\\smestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\smestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\steva\\desktop\\ispitk1\\zadatak3\\zadatak3\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\steva\\desktop\\ispitk1\\zadatak3\\zadatak3\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\user\\desktop\\ispitk1\\zadatak3\\zadatak3\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\steva\\desktop\\ispitk1\\zadatak3\\zadatak3\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\user\\desktop\\ispitk1\\zadatak3\\zadatak3\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\steva\\desktop\\ispitk1\\zadatak3\\zadatak3\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\user\\desktop\\ispitk1\\zadatak3\\zadatak3\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|c:\\users\\user\\desktop\\ispitk1\\zadatak3\\zadatak3\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52258F7F-2E34-44A0-9397-283A487AF438}|Zadatak3\\Zadatak3.csproj|solutionrelative:zadatak3\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,30 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Rezervacija.cs",
-              "DocumentMoniker": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Rezervacija.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Rezervacija.cs",
               "RelativeDocumentMoniker": "Zadatak3\\Rezervacija.cs",
-              "ToolTip": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Rezervacija.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Rezervacija.cs",
               "RelativeToolTip": "Zadatak3\\Rezervacija.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T16:23:49.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Korisnik.cs",
-              "DocumentMoniker": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Korisnik.cs",
               "RelativeDocumentMoniker": "Zadatak3\\Korisnik.cs",
-              "ToolTip": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Korisnik.cs",
               "RelativeToolTip": "Zadatak3\\Korisnik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T16:17:31.654Z",
               "EditorCaption": ""
@@ -66,9 +70,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Apartman.cs",
-              "DocumentMoniker": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Apartman.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Apartman.cs",
               "RelativeDocumentMoniker": "Zadatak3\\Apartman.cs",
-              "ToolTip": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Apartman.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Apartman.cs",
               "RelativeToolTip": "Zadatak3\\Apartman.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,11 +81,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Hotel.cs",
               "RelativeDocumentMoniker": "Zadatak3\\Hotel.cs",
-              "ToolTip": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Hotel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Hotel.cs",
               "RelativeToolTip": "Zadatak3\\Hotel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,11 +96,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Smestaj.cs",
-              "DocumentMoniker": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Smestaj.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Smestaj.cs",
               "RelativeDocumentMoniker": "Zadatak3\\Smestaj.cs",
-              "ToolTip": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Smestaj.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Smestaj.cs",
               "RelativeToolTip": "Zadatak3\\Smestaj.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T16:07:07.827Z",
               "EditorCaption": ""
@@ -105,11 +109,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Program.cs",
               "RelativeDocumentMoniker": "Zadatak3\\Program.cs",
-              "ToolTip": "C:\\Users\\steva\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\IspitK1\\Zadatak3\\Zadatak3\\Program.cs",
               "RelativeToolTip": "Zadatak3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwC0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T16:06:19.616Z",
               "EditorCaption": ""

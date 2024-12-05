@@ -60,106 +60,115 @@ while (opet)
     opet = false;
     Console.WriteLine("-------------------------------------------------------------------------------------");
     Console.Write("Dobrodosli! Izaberite korisnika: (0 - Stevan, 1 - Marko, 2 - Ivana) \n ili unesite 99 da pogledate sve cene svih rezervacija u sistemu: ");
-    int index = Convert.ToInt32(Console.ReadLine());
-    if (index != 0 && index != 1 && index != 2)
+    try
     {
-        if (index == 99)
+        int index = Convert.ToInt32(Console.ReadLine());
+        if (index != 0 && index != 1 && index != 2)
         {
-            
-            if (BrojRezervacija == 0)
+            if (index == 99)
             {
-                Console.WriteLine("--------------------------------------------------");
-                Console.WriteLine("Trenutno ne postoji ni jedna rezervacija u sistemu");
-                Console.WriteLine("--------------------------------------------------");
-            }
-            else
-            {
-                Console.WriteLine("--------------------------");
-                foreach (var rez in rezervacije)
+
+                if (BrojRezervacija == 0)
                 {
-                    rez.IzracunajUkupnuCenu();
+                    Console.WriteLine("--------------------------------------------------");
+                    Console.WriteLine("Trenutno ne postoji ni jedna rezervacija u sistemu");
+                    Console.WriteLine("--------------------------------------------------");
                 }
-                Console.WriteLine("--------------------------");
+                else
+                {
+                    Console.WriteLine("--------------------------");
+                    foreach (var rez in rezervacije)
+                    {
+                        Console.WriteLine("Cena za " + rez.TrajanjeNociGetSet + " noci iznosi: " + rez.IzracunajUkupnuCenu() + " dinara");
+                    }
+                    
+                }
             }
+            opet = true;
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("morate birati korisnika od 0 do 2");
         }
+        else
+        {
+            opet2 = true;
+            while (opet2)
+            {
+                opet2 = false;
+                Console.WriteLine("----------------------------------------");
+                Console.WriteLine("Da li zelite hotel - 0 ili apartman? - 1");
+                int TipSmestaja = Convert.ToInt32(Console.ReadLine());
+                int i = 0, Unos, BrojNoci;
+                switch (TipSmestaja)
+                {
+                    case 0:
+                        Console.WriteLine("--------------------------");
+                        foreach (var h in hoteli) // moze se raditi i (for int o = 0; o < hoteli.lenght; o++) Console.WriteLine(hoteli[o].ToString()
+                        {
+                            Console.WriteLine(i + "." + h.ToString());
+                            i++;
+                        }
+                        Console.WriteLine("-----------------------------------------");
+                        Console.WriteLine("Izaberite neki od ovih hotela po indexu: ");
+                        Unos = Convert.ToInt32(Console.ReadLine());
+                        if (Unos < 0 || Unos > hoteli.Count - 1)
+                        {
+                            Console.WriteLine("---------------------------------");
+                            Console.WriteLine("Ne postoji hotel sa datim indexom");
+                            opet2 = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("------------------------------------------------------");
+                            Console.WriteLine("Ukucajte broj noci koje zelite da provedete u hotelu: ");
+                            BrojNoci = Convert.ToInt32(Console.ReadLine());
+                            Rezervacija r = new Rezervacija(korisnici[index], hoteli[Unos], BrojNoci);
+                            Console.WriteLine("Cena za " + BrojNoci + " noci iznosi: " + r.IzracunajUkupnuCenu() + " dinara");
+                            BrojRezervacija++;
+                            rezervacije.Add(r);
+                            opet = true;
+                        }
+                        break;
+                    case 1:
+                        Console.WriteLine("--------------------------");
+                        foreach (var a in apartmani)
+                        {
+                            Console.WriteLine(i + "." + a.ToString());
+                            i++;
+                        }
+                        Console.WriteLine("----------------------------------------------");
+                        Console.WriteLine("Izaberite neki od ovih apartmana po indexu: ");
+                        Unos = Convert.ToInt32(Console.ReadLine());
+                        if (Unos < 0 || Unos > apartmani.Count - 1)
+                        {
+                            Console.WriteLine("Ne postoji apartman sa datim indexom");
+                            opet2 = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("----------------------------------------------------------");
+                            Console.WriteLine("Ukucajte broj noci koje zelite da provedete u apartmanu : ");
+                            BrojNoci = Convert.ToInt32(Console.ReadLine());
+                            Rezervacija r = new Rezervacija(korisnici[index], apartmani[Unos], BrojNoci);
+                            Console.WriteLine("Cena za " + BrojNoci + " noci iznosi: " + r.IzracunajUkupnuCenu() + " dinara");
+                            BrojRezervacija++;
+                            rezervacije.Add(r);
+                            opet = true;
+                        }
+                        break;
+                    default:
+                        Console.WriteLine("--------------------------");
+                        Console.WriteLine("Izaberite izmedju 0 i 1");
+                        opet2 = true;
+                        break;
+                }
+            }
+
+        }
+    }
+    catch (FormatException)
+    {
+        Console.WriteLine("Morate uneti broj");
         opet = true;
-        Console.WriteLine("morate birati korisnika od 0 do 2");
     }
     
-    else
-    {
-        opet2 = true;
-        while (opet2)
-        {
-            opet2 = false;
-            Console.WriteLine("----------------------------------------");
-            Console.WriteLine("Da li zelite hotel - 0 ili apartman? - 1");
-            int TipSmestaja = Convert.ToInt32(Console.ReadLine());
-            int i = 0, Unos, BrojNoci;
-            switch (TipSmestaja)
-            {
-                case 0:
-                    Console.WriteLine("--------------------------");
-                    foreach (var h in hoteli) // moze se raditi i (for int o = 0; o < hoteli.lenght; o++) Console.WriteLine(hoteli[o].ToString()
-                    { 
-                        Console.WriteLine(i + "." + h.ToString());
-                        i++;
-                    }
-                    Console.WriteLine("-----------------------------------------");
-                    Console.WriteLine("Izaberite neki od ovih hotela po indexu: ");
-                    Unos = Convert.ToInt32(Console.ReadLine());
-                    if(Unos < 0 || Unos > hoteli.Count-1)
-                    {
-                        Console.WriteLine("Ne postoji hotel sa datim indexom");
-                        opet2 = true;
-                    }
-                    else
-                    {
-                        Console.WriteLine("------------------------------------------------------");
-                        Console.WriteLine("Ukucajte broj noci koje zelite da provedete u hotelu: ");
-                        BrojNoci = Convert.ToInt32(Console.ReadLine());
-                        Rezervacija r = new Rezervacija(korisnici[index], hoteli[Unos], BrojNoci);
-                        r.IzracunajUkupnuCenu();
-                        BrojRezervacija++;
-                        rezervacije.Add(r);
-                        opet = true;
-                        
-                    }
-                    break;
-                case 1:
-                    Console.WriteLine("--------------------------");
-                    foreach (var a in apartmani)
-                    {
-                        Console.WriteLine(i + "." + a.ToString());
-                        i++;
-                    }
-                    Console.WriteLine("----------------------------------------------");
-                    Console.WriteLine("Izaberite neki od ovih apartmana po indexu: ");
-                    Unos = Convert.ToInt32(Console.ReadLine());
-                    if (Unos < 0 || Unos > apartmani.Count - 1)
-                    {
-                        Console.WriteLine("Ne postoji apartman sa datim indexom");
-                        opet2 = true;
-                    }
-                    else
-                    {
-                        Console.WriteLine("----------------------------------------------------------");
-                        Console.WriteLine("Ukucajte broj noci koje zelite da provedete u apartmanu : ");
-                        BrojNoci = Convert.ToInt32(Console.ReadLine());
-                        Rezervacija r = new Rezervacija(korisnici[index], apartmani[Unos], BrojNoci);
-                        r.IzracunajUkupnuCenu();
-                        BrojRezervacija++;
-                        rezervacije.Add(r);
-                        opet = true;
-                        
-                    }
-                    break;
-                default:
-                    Console.WriteLine("Izaberite izmedju 0 i 1");
-                    opet2 = true;
-                    break;
-            }
-        }
-        
-    }
 }

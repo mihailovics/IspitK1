@@ -15,14 +15,12 @@ Console.WriteLine("Maximalna ocena je: " + PronadjiNajvisuOcenu(ocene));
 double IzracunajProsecnuOcenuRestorana(int[] ocene)
 {
     // U ovom slucaju znamo koliko clanova postoje u nizu ali cu se praviti da ne znam pa stoga prolazim kroz svaki clan niza i belezim koliko ima ukupno clanova
-    double ukupno = 0, zbir = 0;
+    double zbir = 0;
     for (int i = 0; i < ocene.Length; i++)
     {
         zbir += ocene[i];
-        ukupno++;
-
     }
-    return zbir / ukupno;
+    return zbir / ocene.Length;
 }
 int PronadjiNajvisuOcenu(int[] ocene)
 {
